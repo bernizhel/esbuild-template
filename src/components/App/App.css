@@ -1,0 +1,37 @@
+@import url('../../styles/variables.css');
+
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+.main__counter {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.main__counter-buttons {
+  display: flex;
+  gap: 1.5em;
+}
+
+.main__button {
+  font-size: 3rem;
+  padding: 0.125em;
+}
+
+.main__button_error {
+  font-size: 2rem;
+  padding: 0.25em;
+  background-color: var(--button-color-error);
+  border-color: var(--button-border-color-error);
+}
+
+.main__logo {
+  width: 128px;
+}
